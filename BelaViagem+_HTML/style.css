@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Pacifico&family=Yellowtail&display=swap');
+
+/*_____-----_____PAGINA DO HOME-__________----*/
+.home {
+    background-color: #2C3639;
+}
+
+
+/*__________Navbar___________*/
+.navbar-title {
+    color: #c5c3c3;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+
+
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+/*_____-cAROUSEL DE IMAGENS______---*/
+.carousel-img {
+    background-color: #A27B5C;
+    font-weight: bold;
+
+
+}
+
+.carousel-img img {
+    height: 550px;
+
+}
+
+.carousel-img h5 {
+    font-weight: bold;
+}
+
+/*_______________BUTTONS INCONS_____________*/
+.button-icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.button-i {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.button-i button {
+    border-radius: 100%;
+    width: 120px;
+    height: 110px;
+    background-color: #c5c3c3;
+    border: #DCD7C9 solid 5px;
+}
+
+.button-i img {
+    width: 80px;
+    height: 70px;
+}
+
+.p-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: #DCD7C9;
+}
+
+
+
+/*_____-----_______INFOS DOS LOCAIS______-----____*/
+.titulo-infocards {
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+
+.titulo-infocards span {
+    font-family: 'Pacifico', cursive;
+}
+
+.titulo-infocards h3 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.locais-info {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #A27B5C;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+
+}
+
+.cards-infolocal img {
+    height: 280px;
+
+}
+
+.cards-infolocal {
+    display: flex;
+    font-weight: bold;
+}
+
+.cards-infolocal h5 {
+    font-family: 'Yellowtail', cursive;
+    text-decoration: underline;
+}
+
+
+.locais-info div {
+
+    color: #080808;
+}
+
+.color-back {
+    background-color: #2C3639;
+    width: 100%;
+    height: 100px;
+}
+
+/*---------__________AGRADECIMENTOS_______----------*/
+.thanks {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #2C3639;
+    padding-bottom: 50px;
+
+
+}
+
+.thanks h1 {
+    margin-left: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+
+.thanks img {
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 550px;
+
+}
+
+/*----------_________-SOBRE TEXT------__________*/
+.sobre-text {
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.sobre-text h2 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold 9100;
+    text-decoration: underline;
+
+}
+
+.sobre-text span {
+    font-family: 'Pacifico', cursive;
+}
+
+/*_____________________FOOTEER_______----_____ */
+
+.flex {
+    display: flex;
+}
+
+.flex__mod {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-right: 5rem;
+
+}
+
+.flex__mod img {
+    margin-right: -.5rem;
+    height: 2.0rem;
+    max-width: 100%;
+    border-radius: 9999px;
+    border: solid 2px black;
+    transition: .3s all ease;
+
+}
+
+.flex__mod img:hover {
+    transform: scale(1.3);
+}
+
+.footer-links {
+    margin-left: 50%;
+    align-items: center;
+    margin-bottom: 4px;
+
+}
+
+.h5-links {
+    font-weight: bold;
+    opacity: 50%;
+
+}
+
+.footer-color {
+
+    margin-bottom: none;
+    border-radius: 2px;
+    background-color: #3F4E4F;
+}
+
+
+
+/*___---_____------______-_____Pagina de Destino_____---_____---_______---_____--*/
+.destino {
+    background-color: #2C3639;
+}
+
+/*________----______----_____Botoao de destinos______------_______com algimas imagens____*/
+.destino-cards {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-bottom: 150px;
+
+}
+
+.destino-cards h1 {
+    margin-left: 15px;
+
+}
+
+.buttons-destino {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-primary {
+
+    background-color: #2C3639;
+
+    /* btn propriedades*/
+    height: 200px;
+    width: 25%;
+    border-radius: 10px;
+    border-style: none;
+    margin: 3px;
+
+    transition: 1s ease;
+
+
+}
+
+.buttons-destino img {
+    width: 85%;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #080808;
+}
+
+.btn-primary :hover {
+    transform: scale(1.1);
+
+}
+
+/*_____CARDS PROMOÇAO_____*/
+.cards-infos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #A27B5C;
+    padding-bottom: 100px;
+    border-radius: 7px;
+}
+
+.label-cardsin {
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+.label-cardsin h2 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.cards-complete {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-weight: bold;
+    flex-wrap: wrap;
+
+}
+
+.cards-complete img {
+    width: 286px;
+    height: 150px;
+}
+
+.cards-complete span {
+    text-decoration: line-through;
+    opacity: 70%;
+}
+
+.cards-complete h5 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*__________IMG CARDS____________*/
+
+.img-locais img {
+    height: 350px;
+
+}
+
+.img-locais {
+    margin-top: 5px;
+
+}
+
+.img-locais h3 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+}
+
+.img-locais p {
+    font-weight: bold;
+}
+
+/*__________________CARDS COM OUTROS DESTINOS SEM PREÇO PROMOCIONAL______________*/
+.canvas-destinos {
+    background-color: #A27B5C;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+
+.canvas-destinos span {
+    color: cadetblue;
+}
+
+.canvas-destinos h2 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.p-canvas {
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: none;
+}
+
+.cards-canvas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: bold;
+
+
+}
+
+.cards-canvas h5 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.cards-canvas img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*____---___---____--__________$PAGINA DE CONTATO$_______----_____----____--*/
+.contato {
+    background-color: #2C3639;
+
+}
+
+/*_________PARTE DAS INFOS DE CONTATO__________*/
+
+.form-contato {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #A27B5C;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+
+.infos-contato {
+    color: #DCD7C9;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+
+    text-align: center;
+
+}
+
+.contato-divs h1 {
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    color: #DCD7C9;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.form-contato label {
+    color: antiquewhite;
+}
+
+.form-contato button {
+    background-color: #c5c3c3;
+    height: 50px;
+
+
+}
+
+/*_________parte sobre o criador________*/
+.eu {
+    display: flex;
+
+    margin-top: 50px;
+
+    justify-content: center;
+}
+
+.eu img {
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    border: solid 5px #c5c3c3;
+}
+
+.text-eu {
+    display: flex;
+    flex-direction: column;
+    color: #DCD7C9;
+    font-weight: bolder;
+    margin-left: 10px;
+    padding-top: 70px;
+}
+
+.text-eu span {
+    font-family: 'Pacifico', cursive;
+}
+
+/*________________LINKS DA REDES____________*/
+.links-mysocial {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border-top: #3F4E4F solid 0.1rem;
+
+
+}
+
+
+.links-mysocial button {
+    margin-top: 10px;
+    background-color: #c5c3c3;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.img-contat1 {
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+.img-contat2 {
+    width: 100%;
+    border-radius: 50px;
+}
+
+/*_____|Fix do Conteudo Responsivo|________*/
+
+@media (max-width:650px) {
+    .btn-primary {
+        flex-direction: column;
+        justify-content: none;
+        width: 50%;
+        height: 200px;
+
+    }
+
+    .buttons-destino img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .form-contato button {
+        width: 99%;
+    }
+
+    .eu {
+        flex-direction: column;
+        margin-left: 50px;
+
+    }
+
+    .eu img {
+        width: 150px;
+
+    }
+
+    .p-button {
+        margin-left: 20px;
+    }
+
+    .cards-infolocal {
+        flex-direction: column;
+    }
+
+    .cards-infolocal img {
+        width: 100%;
+    }
+
+    .thanks img {
+        margin-left: 160px;
+
+    }
+
+    .p-button {
+        text-align: center;
+        margin-right: 10px;
+    }
