@@ -1,9 +1,7 @@
-# RecodePro
+# BelaViagem+
 
-Atividade o curso da RecodePRO
-Nome do projeto:BelaViagem+
+Meu primeiro projeto utilizando HTML e CSS esse projeto e um site de viagem que fiz pela primeira vez
 
-Prototipo em HTML,CSS E BOOTSTRAP 
-e 
-Pseudocodigo feito no VisualG
+## Sistema 
 
+Tambem fiz um sistema utilizando Portugol para cadastrar e consultar as viagens
