@@ -4,8 +4,8 @@ Meu primeiro projeto utilizando HTML e CSS esse projeto e um site de viagem que 
  O site Possui as Seguintes Paginas:
  #### 🏝 Home
  #### 🏞 Destino
- #### 🏟
- #### 🏕
+ #### 🏟 Contato
+ #### 🏕 Promoções
  
 
 ## Sistema 
